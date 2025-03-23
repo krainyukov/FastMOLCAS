@@ -1,0 +1,148 @@
+&GATEWAY
+Douglas-Kroll
+
+AMFI
+ANGM
+ -1.922383 6.591980 3.678787  Angstrom
+
+Basis Set
+Dy.ANO-RCC-VTZP.
+ Dy1    -1.922383 6.591980 3.678787    Angstrom
+End of Basis Set
+
+Basis Set
+O.ANO-RCC-VTZP.
+ O1    -1.142485 7.594039 1.742708    Angstrom
+ O2    -0.561146 5.035813 2.642475    Angstrom
+ O3    -3.305820 4.796993 3.286520    Angstrom
+ O4    -3.833952 7.450210 2.664575    Angstrom
+ O5    -3.331631 7.023122 5.535939    Angstrom
+ O6    -1.098515 5.381272 5.468061    Angstrom
+End of Basis Set
+
+Basis Set
+N.ANO-RCC-VTZP.
+ N1    0.435978 7.484380 4.309413    Angstrom
+ N2    -1.704438 9.116750 4.194180    Angstrom
+ N3    3.290581 11.125248 5.636965    Angstrom
+ N4    1.061904 12.854428 5.512261    Angstrom
+End of Basis Set
+
+Basis Set
+C.ANO-RCC-VDZP.
+ C1    1.484552 6.660178 4.364662    Angstrom
+ C2    2.766039 7.100927 4.629857    Angstrom
+ C3    2.985484 8.394268 4.893473    Angstrom
+ C4    1.901577 9.292141 4.906101    Angstrom
+ C5    2.051290 10.684037 5.250223    Angstrom
+ C6    3.350303 12.401182 5.952673    Angstrom
+ C7    2.245795 13.233509 5.894267    Angstrom
+ C8    0.967484 11.545826 5.190238    Angstrom
+ C9    -0.338777 11.030386 4.778240    Angstrom
+ C10    -1.464803 11.863359 4.651956    Angstrom
+ C11    -2.666301 11.321277 4.276264    Angstrom
+ C12    -2.730222 9.963490 4.099468    Angstrom
+ C13    -0.505913 9.682825 4.517781    Angstrom
+ C14    0.642239 8.790848 4.568294    Angstrom
+ C15    -4.346399 7.400193 7.619611    Angstrom
+ C16    -3.276785 6.806535 6.771935    Angstrom
+ C17    -2.251270 6.048867 7.393880    Angstrom
+ C18    -1.233590 5.430695 6.715108    Angstrom
+ C19    -0.155623 4.729242 7.521742    Angstrom
+ C20    0.927384 3.749131 1.406479    Angstrom
+ C21    0.175520 4.994924 1.647995    Angstrom
+ C22    0.356855 6.072584 0.762435    Angstrom
+ C23    -0.284800 7.290509 0.868197    Angstrom
+ C24    -4.281508 4.595739 2.487779    Angstrom
+ C25    -4.964965 5.584999 1.815321    Angstrom
+ C26    -4.761816 6.945822 1.981067    Angstrom
+ C27    0.041489 8.375533 -0.140490    Angstrom
+ C28    -5.693737 7.931915 1.340180    Angstrom
+ C29    -4.647188 3.145081 2.269940    Angstrom
+End of Basis Set
+
+Basis Set
+H.ANO-RCC-MB.
+ H1    1.346940 5.752010 4.217858    Angstrom
+ H2    3.475639 6.500065 4.623543    Angstrom
+ H3    3.847910 8.696867 5.068691    Angstrom
+ H4    4.165405 12.756710 6.225760    Angstrom
+ H5    2.358308 14.122513 6.142098    Angstrom
+ H6    -1.394598 12.774861 4.820860    Angstrom
+ H7    -3.415253 11.856941 4.145245    Angstrom
+ H8    -3.561515 9.600431 3.895836    Angstrom
+ H9    -4.641149 8.227371 7.231290    Angstrom
+ H10    -4.002168 7.566121 8.500436    Angstrom
+ H11    -5.085748 6.790475 7.674860    Angstrom
+ H12    -2.270563 5.967468 8.318904    Angstrom
+ H13    -0.188864 3.786013 7.346524    Angstrom
+ H14    -0.302561 4.886871 8.456237    Angstrom
+ H15    0.705450 5.071298 7.270754    Angstrom
+ H16    1.691684 3.717958 1.987381    Angstrom
+ H17    1.219775 3.724014 0.492504    Angstrom
+ H18    0.361354 2.993421 1.581697    Angstrom
+ H19    0.949593 5.956502 0.055249    Angstrom
+ H20    -5.612968 5.319249 1.202847    Angstrom
+ H21    -0.756733 8.623106 -0.612473    Angstrom
+ H22    0.692854 8.046970 -0.764013    Angstrom
+ H23    0.393259 9.141928 0.317286    Angstrom
+ H24    -5.797939 8.693726 1.916347    Angstrom
+ H25    -6.548607 7.518608 1.198112    Angstrom
+ H26    -5.330707 8.214750 0.498819    Angstrom
+ H27    -4.736862 2.975480 1.329130    Angstrom
+ H28    -5.478842 2.955237 2.710353    Angstrom
+ H29    -3.957364 2.583573 2.631426    Angstrom
+End of Basis Set
+
+&SEWARD
+HIGH Cholesky
+
+&RASSCF
+SYMM
+1
+CIMX
+200
+charge
+0
+Spin
+6
+ciroot
+21 21 1
+Nactel
+9 0 0
+Ras2
+7
+ORBL
+nocore
+ORBA
+compact
+>>> COPY $Project.JobIph JOB001
+
+&RASSI
+spinorbit
+nrofjobiphs=1 21
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21
+mees
+PROP
+3
+'ANGMOM' 1
+'ANGMOM' 2
+'ANGMOM' 3
+
+&SINGLE_ANISO
+MLTP
+8
+2 2 2 2  2 2 2 2
+CRYS
+Dy
+XFIE
+0.5
+TINT
+0 300 301
+HINT
+0 5 51
+TMAG
+3 2.0 4.0 6.0
+UBAR
+
+>>> COPY $Project.aniso $CurrDir/806774.aniso

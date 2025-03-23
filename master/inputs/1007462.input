@@ -1,0 +1,168 @@
+&GATEWAY
+Douglas-Kroll
+
+AMFI
+ANGM
+ 8.855358 1.515654 4.678116  Angstrom
+
+Basis Set
+Dy.ANO-RCC-VTZP.
+ Dy1    8.855358 1.515654 4.678116    Angstrom
+End of Basis Set
+
+Basis Set
+O.ANO-RCC-VTZP.
+ O1    6.628512 1.072565 5.301157    Angstrom
+ O2    8.683081 2.055946 6.912279    Angstrom
+ O3    10.435487 0.203354 5.745557    Angstrom
+ O4    8.439684 -0.663842 3.977588    Angstrom
+ O5    10.610291 3.065002 4.854005    Angstrom
+ O6    10.229420 1.195188 2.835631    Angstrom
+ O7    4.370342 -2.933548 10.673858    Angstrom
+End of Basis Set
+
+Basis Set
+N.ANO-RCC-VTZP.
+ N1    7.410993 1.956156 2.609991    Angstrom
+ N2    7.625929 3.807676 4.548566    Angstrom
+ N3    3.815158 4.408891 0.564099    Angstrom
+ N4    4.017930 6.333426 2.630629    Angstrom
+End of Basis Set
+
+Basis Set
+C.ANO-RCC-VDZP.
+ C1    7.785001 4.745428 5.480018    Angstrom
+ C2    7.037809 5.917678 5.518542    Angstrom
+ C3    6.059216 6.114637 4.582962    Angstrom
+ C4    5.845130 5.131866 3.599228    Angstrom
+ C5    6.662738 4.009040 3.610235    Angstrom
+ C6    6.549685 2.990753 2.565964    Angstrom
+ C7    7.347660 1.076550 1.609747    Angstrom
+ C8    6.444034 1.150056 0.569603    Angstrom
+ C9    5.561988 2.177332 0.544837    Angstrom
+ C10    5.597794 3.149216 1.542330    Angstrom
+ C11    4.702248 4.302491 1.538202    Angstrom
+ C12    4.811269 5.297157 2.563212    Angstrom
+ C13    2.194325 7.538645 1.652398    Angstrom
+ C14    2.045839 5.673611 -0.429266    Angstrom
+ C15    3.076778 6.462889 1.638639    Angstrom
+ C16    2.996356 5.487867 0.584737    Angstrom
+ C17    1.226222 7.698850 0.656281    Angstrom
+ C18    1.176457 6.738028 -0.419635    Angstrom
+ C19    0.192368 6.948964 -1.450148    Angstrom
+ C20    0.297479 8.761684 0.667288    Angstrom
+ C21    -0.615395 8.902380 -0.339835    Angstrom
+ C22    -0.645625 7.967695 -1.421255    Angstrom
+ C23    4.487433 0.835921 6.286267    Angstrom
+ C24    5.955057 1.178728 6.379825    Angstrom
+ C25    6.488600 1.544547 7.607085    Angstrom
+ C26    7.811605 1.937000 7.823093    Angstrom
+ C27    8.267033 2.274066 9.223710    Angstrom
+ C28    12.054022 -1.387420 6.411469    Angstrom
+ C29    10.912328 -0.941527 5.539179    Angstrom
+ C30    10.405042 -1.839341 4.571955    Angstrom
+ C31    9.219957 -1.662554 3.859264    Angstrom
+ C32    8.778170 -2.751948 2.905799    Angstrom
+ C33    12.800335 3.988201 5.065886    Angstrom
+ C34    11.816288 3.030155 4.431619    Angstrom
+ C35    12.268887 2.222172 3.402481    Angstrom
+ C36    11.465057 1.358098 2.655394    Angstrom
+ C37    12.099871 0.597057 1.513437    Angstrom
+ C38    4.247560 -1.215831 9.458981    Angstrom
+ C39    4.735172 -1.954146 10.494997    Angstrom
+End of Basis Set
+
+Basis Set
+H.ANO-RCC-MB.
+ H1    8.428572 4.609711 6.137675    Angstrom
+ H2    7.201012 6.558996 6.172071    Angstrom
+ H3    5.543249 6.886826 4.598097    Angstrom
+ H4    7.951804 0.368823 1.613874    Angstrom
+ H5    6.441099 0.505465 -0.100437    Angstrom
+ H6    4.933525 2.234227 -0.138961    Angstrom
+ H7    2.250095 8.162994 2.338948    Angstrom
+ H8    2.001277 5.060694 -1.126823    Angstrom
+ H9    0.146373 6.348717 -2.158711    Angstrom
+ H10    0.305302 9.373562 1.368973    Angstrom
+ H11    -1.220326 9.609866 -0.323325    Angstrom
+ H12    -1.260869 8.078847 -2.109181    Angstrom
+ H13    4.134028 1.167124 5.456628    Angstrom
+ H14    4.015826 1.240927 7.018220    Angstrom
+ H15    4.377424 -0.116154 6.322039    Angstrom
+ H16    5.920840 1.527719 8.343165    Angstrom
+ H17    9.091844 1.819820 9.410826    Angstrom
+ H18    7.598963 1.993042 9.853851    Angstrom
+ H19    8.397828 3.221970 9.298006    Angstrom
+ H20    12.354917 -0.649509 6.946676    Angstrom
+ H21    12.775330 -1.697909 5.859753    Angstrom
+ H22    11.759958 -2.098566 6.985200    Angstrom
+ H23    10.899370 -2.607624 4.398598    Angstrom
+ H24    8.043784 -3.236226 3.291037    Angstrom
+ H25    9.509343 -3.353244 2.747576    Angstrom
+ H26    8.501490 -2.358516 2.074784    Angstrom
+ H27    12.524277 4.183015 5.964318    Angstrom
+ H28    12.827264 4.801895 4.556821    Angstrom
+ H29    13.672373 3.589044 5.078269    Angstrom
+ H30    13.173951 2.257447 3.193352    Angstrom
+ H31    11.461071 0.491864 0.804873    Angstrom
+ H32    12.382003 -0.266359 1.821628    Angstrom
+ H33    12.860848 1.085019 1.187360    Angstrom
+ H34    4.929843 -1.111109 8.791693    Angstrom
+ H35    3.978620 -0.352497 9.780930    Angstrom
+ H36    3.490945 -1.665075 9.075118    Angstrom
+ H37    5.694927 -2.023594 10.372547    Angstrom
+ H38    4.591767 -1.441735 11.306750    Angstrom
+End of Basis Set
+
+&SEWARD
+HIGH Cholesky
+
+&RASSCF
+SYMM
+1
+CIMX
+200
+charge
+0
+Spin
+6
+ciroot
+21 21 1
+Nactel
+9 0 0
+Ras2
+7
+ORBL
+nocore
+ORBA
+compact
+>>> COPY $Project.JobIph JOB001
+
+&RASSI
+spinorbit
+nrofjobiphs=1 21
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21
+mees
+PROP
+3
+'ANGMOM' 1
+'ANGMOM' 2
+'ANGMOM' 3
+
+&SINGLE_ANISO
+MLTP
+8
+2 2 2 2  2 2 2 2
+CRYS
+Dy
+XFIE
+0.5
+TINT
+0 300 301
+HINT
+0 5 51
+TMAG
+3 2.0 4.0 6.0
+UBAR
+
+>>> COPY $Project.aniso $CurrDir/1007462.aniso

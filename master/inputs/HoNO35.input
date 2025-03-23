@@ -1,0 +1,92 @@
+&GATEWAY
+Douglas-Kroll
+
+AMFI
+ANGM
+ 2.840772 1.929382 2.862764  Angstrom
+
+Basis Set
+Ho.ANO-RCC-VTZP.
+ Ho1    2.840772 1.929382 2.862764    Angstrom
+End of Basis Set
+
+Basis Set
+O.ANO-RCC-VTZP.
+ O1    2.976980 0.997254 0.589539    Angstrom
+ O2    4.923328 2.848503 3.777791    Angstrom
+ O3    1.933028 4.165275 2.642760    Angstrom
+ O4    2.518717 2.866848 5.111594    Angstrom
+ O5    0.905001 1.714373 4.278108    Angstrom
+ O6    5.096545 1.292513 2.285874    Angstrom
+ O7    0.739260 2.508640 6.307612    Angstrom
+ O8    2.309298 -0.445350 2.918329    Angstrom
+ O9    2.750071 5.707873 1.348485    Angstrom
+ O10    3.623178 0.287688 4.457680    Angstrom
+ O11    1.064054 1.714836 1.254746    Angstrom
+ O12    3.627833 3.708936 1.391402    Angstrom
+ O13    6.894873 2.165398 3.183735    Angstrom
+ O14    1.234164 0.754939 -0.687795    Angstrom
+ O15    3.111220 -1.827646 4.400082    Angstrom
+End of Basis Set
+
+Basis Set
+N.ANO-RCC-VTZP.
+ N1    5.693749 2.102670 3.086608    Angstrom
+ N2    3.016076 -0.696799 3.940422    Angstrom
+ N3    1.751326 1.140434 0.345592    Angstrom
+ N4    2.768413 4.572786 1.773134    Angstrom
+ N5    1.372615 2.366746 5.271967    Angstrom
+End of Basis Set
+
+&SEWARD
+HIGH Cholesky
+
+&RASSCF
+SYMM
+1
+CIMX
+200
+charge
+-2
+Spin
+5
+ciroot
+35 35 1
+Nactel
+10 0 0
+Ras2
+7
+ORBL
+nocore
+ORBA
+compact
+>>> COPY $Project.JobIph JOB001
+
+&RASSI
+spinorbit
+nrofjobiphs=1 35
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35
+mees
+PROP
+3
+'ANGMOM' 1
+'ANGMOM' 2
+'ANGMOM' 3
+
+&SINGLE_ANISO
+MLTP
+8
+2 2 2 2  2 2 2 2
+CRYS
+Ho
+XFIE
+0.5
+TINT
+0 300 301
+HINT
+0 5 51
+TMAG
+3 2.0 4.0 6.0
+UBAR
+
+>>> COPY $Project.aniso $CurrDir/HoNO34.aniso
