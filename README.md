@@ -10,8 +10,13 @@ fast_report - набор функций, который составляет о�
 
 Структура проекта
 
-master
-|---docs
-|---inputs
-|---logs
-|---structures
+```
+└── 📁master
+    └── 📁docs
+    └── 📁inputs
+    └── 📁logs
+    └── 📁structures
+─── fast_input.ipynb
+─── fast_reprot.ipynb
+─── convert.ipynb
+```
