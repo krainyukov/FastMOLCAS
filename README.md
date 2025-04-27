@@ -20,3 +20,14 @@ fast_report - набор функций, который составляет о�
 ─── fast_reprot.ipynb
 ─── convert.ipynb
 ```
+
+```mermaid
+flowchart TD
+    st[Начало] --> gateway[GATEWAY]
+    gateway --> seward[SEWARD]
+    seward --> rasscf[RASSCF]
+    rasscf --> rassi[RASSI]
+    rassi --> single_aniso[SINGLE_ANISO]
+    single_aniso --> e[Конец]
+
+```
